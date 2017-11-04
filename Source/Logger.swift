@@ -28,6 +28,22 @@ public enum Level {
     case trace, debug, info, warning, error
     
     var description: String {
+        switch self {
+        case .trace:
+            return "💤💤💤"
+        case .debug:
+            return "🐛🐛🐛"
+        case .info:
+            return "🕸🕸🕸"
+        case .warning:
+            return "⚠️⚠️⚠️"
+        case .error:
+            return "❌❌❌"
+        default:
+            return String(describing: self).uppercased()
+        }
+        
+        
         return String(describing: self).uppercased()
     }
 }
