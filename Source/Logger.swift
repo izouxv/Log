@@ -30,11 +30,11 @@ public enum Level {
     var description: String {
         switch self {
         case .trace:
-            return "💤💤💤"
+            return "🕸🕸🕸"
         case .debug:
             return "🐛🐛🐛"
         case .info:
-            return "🕸🕸🕸"
+            return "💤💤💤"
         case .warning:
             return "⚠️⚠️⚠️"
         case .error:
