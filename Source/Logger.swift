@@ -34,7 +34,7 @@ public enum Level {
         case .debug:
             return "🐛🐛🐛"
         case .info:
-            return "💤💤💤"
+            return "💬💬💬"
         case .warning:
             return "⚠️⚠️⚠️"
         case .error:
